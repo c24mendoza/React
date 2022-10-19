@@ -1,0 +1,98 @@
+
+.inicio-rapido {
+    width: 90%;
+    height: 80px;
+    margin: 0px auto;
+    background-color: #f1f2f6;
+    border-radius: 15px;
+    padding: 0 15px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+  }
+  .inicio-rapido p {
+    color: #2c3e50;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 0;
+    height: 20px;
+    margin: 0;
+  }
+  
+  .inicio-rapido-pendiente {
+    display: flex;
+    box-sizing: border-box;
+  }
+  
+  .inicio-rapido-pendiente-tareas {
+    height: 30px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .inicio-rapido-pendiente-tareas span {
+    font-size: 14px;
+    color: #2c3e50;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px #596275;
+    padding-right: 5px;
+  }
+  .inicio-rapido-pendiente-tareas p {
+    margin: 0;
+    padding: 0 20px 0 0px;
+  }
+  .inicio-rapido-pendiente-tareas input {
+    color: #fff;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #2c3e50;
+  }
+  .inicio-rapido-pendiente-tareas input:hover {
+    background-color: #596275;
+    cursor: pointer;
+  }
+  
+  .separador {
+    height: 30px;
+    border-right: 1px solid #596275;
+  }
+
+  /*=============================================
+PANTALLA DE ESCRITORIO GRANDE - LARGE (lg) - revisamos en portatil o pc
+=============================================*/
+@media (min-width: 1025px) {
+  
+}
+/*=============================================
+PANTALLA DE ESCRITORIO MEDIANO - MEDIUM (md) - revisamos en tablet horizontal 1024px
+=============================================*/
+@media (max-width: 1024px) and (min-width: 992px) {
+  
+
+  
+}
+/*=============================================
+PANTALLA DE TABLET - SMALL (sm) - revisamos en tablet vertical 768px
+=============================================*/
+@media (max-width: 991px) and (min-width: 768px) {
+  
+
+}
+
+/*=============================================
+PANTALLA DE PHONES - SMALL (s) - revisamos en movil horizontal 480px o vertical 320px
+=============================================*/
+@media (min-width: 341px) and (max-width: 767px) {
+  
+
+}
+/*=============================================
+PANTALLA DE PHONES - EXTRA SMALL (xs) - revisamos en movil horizontal 480px o vertical 320px
+=============================================*/
+@media (max-width: 340px) {
+  
+
+}

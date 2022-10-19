@@ -1,0 +1,136 @@
+.contenido-central {
+    width: 85%;
+    margin-left: 15%;
+    margin-top: 60px;
+  }
+
+  .contenedor-tareas {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .task-target {
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    border: 1px solid #dfe4ea;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    background-color: #f1f2f6;
+  }
+  
+  .task-target:hover {
+    background-color: #eeebd9;
+  }
+   
+  .task-target-titulo {
+    width: 90%;
+    height: 20%;
+    padding: 10px;
+    border-bottom: 1px solid #dfe4ea;
+    margin: 0 auto;
+  }
+  .task-target-titulo span {
+    color: #2c3e50;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .tast-target-usuario {
+    width: 90%;
+    height: 20%;
+    margin: 5px auto;
+    display: flex;
+  }
+  
+  .task-target-usuario-imagen {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #dfe4ea;
+  }
+  
+  .task-target-usuario-info {
+    margin: auto 10px;
+  }
+  
+  .task-target-usuario-info p {
+    font-size: 10px;
+    color: #2c3e50;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .task-target-fecha {
+    width: 90%;
+    height: 10%;
+    margin: 5px auto 10px;
+    padding: 5px 0;
+  }
+  .task-target-fecha span {
+    color: #2c3e50;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .tast-target-boton {
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid #dfe4ea;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #2c3e50;
+  }
+  .tast-target-boton span {
+    color: #fff;
+    font-size: 12px;
+  }
+  
+  .tast-target-boton:hover {
+    background-color: #596275;
+    cursor: pointer;
+  }
+
+  
+  /*=============================================
+PANTALLA DE ESCRITORIO GRANDE - LARGE (lg) - revisamos en portatil o pc
+=============================================*/
+@media (min-width: 1025px) {
+    
+  }
+  /*=============================================
+  PANTALLA DE ESCRITORIO MEDIANO - MEDIUM (md) - revisamos en tablet horizontal 1024px
+  =============================================*/
+  @media (max-width: 1024px) and (min-width: 992px) {
+    
+    .task-target {
+      margin: 30px 50px;
+    }
+  }
+  /*=============================================
+  PANTALLA DE TABLET - SMALL (sm) - revisamos en tablet vertical 768px
+  =============================================*/
+  @media (max-width: 991px) and (min-width: 768px) {
+    
+
+  }
+  
+  /*=============================================
+  PANTALLA DE PHONES - SMALL (s) - revisamos en movil horizontal 480px o vertical 320px
+  =============================================*/
+  @media (min-width: 341px) and (max-width: 767px) {
+    
+
+  }
+  /*=============================================
+  PANTALLA DE PHONES - EXTRA SMALL (xs) - revisamos en movil horizontal 480px o vertical 320px
+  =============================================*/
+  @media (max-width: 340px) {
+    
+
+  }

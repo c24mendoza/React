@@ -1,0 +1,113 @@
+.menu-lateral-pequeno {
+    width: 5%;
+    height: 100%;
+    background-color: #2c3e50;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    display: none;
+  }
+  
+  .lateral-foto-usuario-pequeno {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #596275;
+  }
+  .lateral-foto-usuario-pequeno img {
+    width: 50%;
+    border-radius: 50%;
+    margin: 0 auto 5px;
+  }
+  
+  .lateral-boton-solicitud-pequeno {
+    width: 50%;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #596275;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .lateral-boton-solicitud-pequeno img {
+    height: 30px;
+    margin: 0 auto;
+  }
+  
+  .lateral-boton-solicitud-pequeno:hover {
+    background-color: #596275;
+  }
+  
+  .lateral-menu-usuario-pequeno {
+    border-bottom: 1px solid #596275;
+  }
+  
+  .lateral-menu-usuario-lista-pequeno {
+    list-style: none;
+    padding-left: 0px;
+  }
+  .lateral-menu-usuario-lista-pequeno li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .lateral-menu-usuario-lista-pequeno li img {
+    height: 30px;
+    margin: 0 auto;
+  }
+  
+  .lateral-menu-usuario-lista-pequeno li:hover {
+    background-color: #596275;
+  }
+
+
+  /*=============================================
+PANTALLA DE ESCRITORIO GRANDE - LARGE (lg) - revisamos en portatil o pc
+=============================================*/
+@media (min-width: 1025px) {
+    
+  }
+  /*=============================================
+  PANTALLA DE ESCRITORIO MEDIANO - MEDIUM (md) - revisamos en tablet horizontal 1024px
+  =============================================*/
+  @media (max-width: 1024px) and (min-width: 992px) {
+    
+  }
+  /*=============================================
+  PANTALLA DE TABLET - SMALL (sm) - revisamos en tablet vertical 768px
+  =============================================*/
+  @media (max-width: 991px) and (min-width: 768px) {
+    
+    .menu-lateral-pequeno {
+      display: none;
+    }
+    
+  }
+  
+  /*=============================================
+  PANTALLA DE PHONES - SMALL (s) - revisamos en movil horizontal 480px o vertical 320px
+  =============================================*/
+  @media (min-width: 341px) and (max-width: 767px) {
+    
+    .menu-lateral-pequeno {
+      display: none;
+    }
+    
+  }
+  /*=============================================
+  PANTALLA DE PHONES - EXTRA SMALL (xs) - revisamos en movil horizontal 480px o vertical 320px
+  =============================================*/
+  @media (max-width: 340px) {
+    
+    .menu-lateral-pequeno {
+      display: none;
+    }
+    
+  }
