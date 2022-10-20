@@ -345,3 +345,30 @@
   margin: auto 5px;
   border-radius: 50px;
 }
+
+.nueva-observacion{
+  width: 100%;
+  height: 40px;
+  display:flex;
+  align-items: center;
+}
+
+.nueva-observacion-texto{
+  width: 80%;
+  height: 20px;
+  border: 1px solid #dfe4ea;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.nueva-observacion-boton{
+  border: 1px solid #dfe4ea;
+  border-radius: 10px;
+  background-color: #2c3e50;
+  color: #dfe4ea;
+  padding: 5px;
+  text-align: center;
+  font-size: 12px;
+  width: 15%;
+  margin: 0 auto;
+}

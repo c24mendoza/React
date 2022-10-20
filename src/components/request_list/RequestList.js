@@ -87,6 +87,11 @@ export default function RequestList (){
 
                     </div>
 
+                    <div className="nueva-observacion">
+                        <input className="nueva-observacion-texto" type="text" id="input-observacion" name="input-observacion" placeholder="Nueva Observacion"/>
+                        <input className="nueva-observacion-boton" type="button" value="Guardar" />
+                    </div>
+
                 </div>
                 
             </div>
