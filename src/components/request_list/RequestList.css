@@ -1,7 +1,4 @@
 .request{
-    width: 85%;
-    margin-left: 15%;
-    margin-top: 60px;
     padding: 20px;
     box-sizing: border-box;
 }
@@ -359,6 +356,7 @@
   border: 1px solid #dfe4ea;
   border-radius: 5px;
   padding: 5px;
+  font-size: 11px;
 }
 
 .nueva-observacion-boton{
@@ -371,4 +369,5 @@
   font-size: 12px;
   width: 15%;
   margin: 0 auto;
+  cursor: pointer;
 }

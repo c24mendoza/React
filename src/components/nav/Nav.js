@@ -13,7 +13,7 @@ export default function Nav(){
 
         <Fragment>
             <nav>
-                <div className="hamburger" id="hamburger" onClick={CambiarEstadoMenu}>
+                <div className="hamburger" id="hamburger" onClick={()=>{CambiarEstadoMenu()}}>
                     <div className="menu-hamburger" id="menu-hamburger">
                         <div className="linea-hamburger"></div>
                         <div className="linea-hamburger"></div>

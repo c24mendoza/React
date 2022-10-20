@@ -8,7 +8,8 @@ export default function TaskTargets(){
 
     return(
 
-        <div className="contenido-central" id="contenido-central">
+        // <div className="contenido-central" id="contenido-central">
+        <>
 
             <InicioRapido/>
 
@@ -178,7 +179,7 @@ export default function TaskTargets(){
 
             </div>
 
-        </div>
+        </>
 
 
     )
