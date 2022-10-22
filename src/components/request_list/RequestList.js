@@ -2,8 +2,6 @@ import React from "react";
 import './RequestList.css';
 import avatar from '../../components/img/foto-avatar.png';
 import check from '../../components/img/check3.png';
-import imgPersonal from '../../components/img/carita.png';
-import imgExterna from '../../components/img/flecha.png';
 
 
 export default function RequestList (){
@@ -24,7 +22,7 @@ export default function RequestList (){
                         <div className="item-lista-botones">
                             <img className="item-lista-botones-imagen" src={avatar} alt=""/>
                             <span className="item-lista-botones-fecha">10/oct/22</span>
-                            <span className="item-lista-botones-estado">Pendiente</span>
+                            {colorEstado('Pendiente')}
                         </div>
                     </div>
                     <div className="item-lista"></div>
@@ -79,15 +77,11 @@ export default function RequestList (){
                             
                             <div className="item-observaciones">
                                 <p>Esto es una observacion</p>
-                                <div className="item-observaciones-tipo">
-                                    <img className="item-observaciones-imagen" src={imgPersonal} alt="" title="Personal"/>
-                                </div>
+                                <div className="item-observaciones-tipo">1/oct/2022</div>
                             </div>
                             <div className="item-observaciones">
                                 <p>Esto es una observacion. Esto es una observacion. Esto es una observacion. Esto es una observacion. Esto es una observacion.</p>
-                                <div className="item-observaciones-tipo">
-                                    <img className="item-observaciones-imagen" src={imgExterna} alt="" title="Externa"/>
-                                </div>
+                                <div className="item-observaciones-tipo">1/oct/2022</div>
                             </div>
 
                         </div>
@@ -103,15 +97,11 @@ export default function RequestList (){
                             
                             <div className="item-observaciones">
                                 <p>Esto es un comentario</p>
-                                <div className="item-observaciones-tipo">
-                                    <img className="item-observaciones-imagen" src={imgPersonal} alt="" title="Personal"/>
-                                </div>
+                                <img className="item-observaciones-imagen" src={avatar} alt="" title="Personal"/>
                             </div>
                             <div className="item-observaciones">
                                 <p>Esto es una comentario. Esto es un comentario. Esto es un comentario. Esto es un comentario. Esto es un comentario.</p>
-                                <div className="item-observaciones-tipo">
-                                    <img className="item-observaciones-imagen" src={imgExterna} alt="" title="Externa"/>
-                                </div>
+                                <img className="item-observaciones-imagen" src={avatar} alt="" title="Personal"/>
                             </div>
 
                         </div>
