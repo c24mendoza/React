@@ -8,7 +8,8 @@ import {
 
 import './Inicio.css'
 import TaskTargets from "../task_targets/TaskTargets";
-import RequestList from "../request_list/RequestList";
+// import RequestList from "../request_list/RequestList";
+import Request from "../request_list/Request";
 
 export default function Inicio(){
 
@@ -20,7 +21,7 @@ export default function Inicio(){
           
                 <Routes>
                     <Route path='/'  element={<TaskTargets/>} exact/>
-                    <Route path='/mistareas' element={<RequestList/>}/>
+                    <Route path='/solicitudes' element={<Request/>}/>
                 </Routes>
 
             </Router>

@@ -4,7 +4,7 @@ import avatar from '../../components/img/foto-avatar.png';
 import signo_mas from '../../components/img/signo-mas.png';
 import home from '../../components/img/home.png';
 import logo from '../../components/img/icono-tarea.png';
-import solicitud from '../../components/img/solicitud.png';
+// import solicitud from '../../components/img/solicitud.png';
 import historial from '../../components/img/historial.png';
 // import organigrama from '../../components/img/organigrama2.png'
 import persona from '../../components/img/persona.png';
@@ -32,11 +32,11 @@ export default function SidebarPequeno(){
                         <img src={home} alt="inicio" title="Inicio"/>
                     </li></a>
                     <a href="#/"><li className="lateral-menu-usuario-item">
-                        <img src={logo} alt="tareas" title="Mis Tareas"/>
+                        <img src={logo} alt="tareas" title="Solicitudes"/>
                     </li></a>
-                    <a href="#/"><li className="lateral-menu-usuario-item">
+                    {/* <a href="#/"><li className="lateral-menu-usuario-item">
                         <img src={solicitud} alt="solicitudes" title="Mis Solicitudes"/>
-                    </li></a>
+                    </li></a> */}
                     <a href="#/"><li className="lateral-menu-usuario-item">
                         <img src={historial} alt="Historial" title="Historial"/>
                     </li></a>

@@ -4,14 +4,13 @@ import avatar from '../../components/img/foto-avatar.png';
 import signo_mas from '../../components/img/signo-mas.png';
 import home from '../../components/img/home.png';
 import logo from '../../components/img/icono-tarea.png';
-import solicitud from '../../components/img/solicitud.png';
+// import solicitud from '../../components/img/solicitud.png';
 import historial from '../../components/img/historial.png';
 // import organigrama from '../../components/img/organigrama2.png'
 import persona from '../../components/img/persona.png';
 import departamento from '../../components/img/departamento.png';
 import pizarra from '../../components/img/pizarra.png';
 import ayuda from '../../components/img/ayuda.png';
-// import { Link } from 'react-router-dom';
 
 export default function SidebarGrande(){
 
@@ -36,15 +35,15 @@ export default function SidebarGrande(){
                         <img src={home} alt=""/>
                         <span>Inicio</span>
                     </li></a>
-                    <a href="http://localhost:3000/mistareas"><li className="lateral-menu-usuario-item">
+                    <a href="http://localhost:3000/solicitudes"><li className="lateral-menu-usuario-item">
                         <img src={logo} alt=""/>
-                        <span>Mis tareas</span>
+                        <span>Solicitudes</span>
                     </li></a>
-                    <a href="http://localhost:3000/mistareas"><li className="lateral-menu-usuario-item">
+                    {/* <a href="http://localhost:3000/solicitudes"><li className="lateral-menu-usuario-item">
                         <img src={solicitud} alt=""/>
                         <span>Mis solicitudes</span>
-                    </li></a>
-                    <a href="http://localhost:3000/mistareas"><li className="lateral-menu-usuario-item">
+                    </li></a> */}
+                    <a href="http://localhost:3000/solicitudes"><li className="lateral-menu-usuario-item">
                         <img src={historial} alt=""/>
                         <span>Historial</span>
                     </li></a>

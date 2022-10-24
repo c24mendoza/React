@@ -3,7 +3,7 @@ import './SidebarTabletPeq.css';
 import signo_mas from '../../components/img/signo-mas.png';
 import home from '../../components/img/home.png';
 import logo from '../../components/img/icono-tarea.png';
-import solicitud from '../../components/img/solicitud.png';
+// import solicitud from '../../components/img/solicitud.png';
 // import historial from '../../components/img/historial.png';
 import organigrama from '../../components/img/organigrama2.png'
 // import persona from '../../components/img/persona.png';
@@ -28,12 +28,12 @@ export default function SidebarTabletPeq(){
                     </li></a>
                     <a href="#/"><li className="tablet-menu-usuario-item-pequeno">
                         <img src={logo} alt=""/>
-                        <span>Mis tareas</span>
+                        <span>Solicitudes</span>
                     </li></a>
-                    <a href="#/"><li className="tablet-menu-usuario-item-pequeno">
+                    {/* <a href="#/"><li className="tablet-menu-usuario-item-pequeno">
                         <img src={solicitud} alt=""/>
                         <span>Mis solicitudes</span>
-                    </li></a>
+                    </li></a> */}
                     <a href="#/"><li className="tablet-menu-usuario-item-pequeno">
                         <img src={organigrama} alt=""/>
                         <span>Organigrama</span>

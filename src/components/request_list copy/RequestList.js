@@ -9,6 +9,10 @@ export default function RequestList (){
     return(
 
         <div className="request" id="request">
+            
+            <div className="request-barra-titulo">
+                <span className="request-list-titulo">Listado de solicitudes a realizar</span>
+            </div>
 
             <div className="request-contenido">
                 <div className="contenedor-lista">
@@ -145,7 +149,7 @@ export default function RequestList (){
         let contenedor_observaciones = document.getElementById('contenedor-observaciones')
         let contenedor_comentarios = document.getElementById('contenedor-comentarios')
 
-        tab_observaciones.style.backgroundColor = 'rgb(234, 233, 247)'
+        tab_observaciones.style.backgroundColor = 'white'
         tab_observaciones.style.fontStyle = 'normal'
         tab_observaciones.style.fontWeight = 'normal'
         tab_observaciones.style.borderBottom = '1px solid #c3cedb'
@@ -164,7 +168,7 @@ export default function RequestList (){
         let contenedor_observaciones = document.getElementById('contenedor-observaciones')
         let contenedor_comentarios = document.getElementById('contenedor-comentarios')
 
-        tab_comentarios.style.backgroundColor = 'rgb(234, 233, 247)'
+        tab_comentarios.style.backgroundColor = 'white'
         tab_comentarios.style.fontStyle = 'normal'
         tab_comentarios.style.fontWeight = 'normal'
         tab_comentarios.style.borderBottom = '1px solid #c3cedb'

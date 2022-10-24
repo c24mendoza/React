@@ -3,7 +3,7 @@ import './SidebarTablet.css';
 import signo_mas from '../../components/img/signo-mas.png';
 import home from '../../components/img/home.png';
 import logo from '../../components/img/icono-tarea.png';
-import solicitud from '../../components/img/solicitud.png';
+// import solicitud from '../../components/img/solicitud.png';
 import historial from '../../components/img/historial.png';
 // import organigrama from '../../components/img/organigrama2.png'
 import persona from '../../components/img/persona.png';
@@ -31,12 +31,12 @@ export default function SidebarTablet(){
                     </li></a>
                     <a href="#/"><li className="tablet-menu-usuario-item">
                         <img src={logo} alt=""/>
-                        <span>Mis tareas</span>
+                        <span>Solicitudes</span>
                     </li></a>
-                    <a href="#/"><li className="tablet-menu-usuario-item">
+                    {/* <a href="#/"><li className="tablet-menu-usuario-item">
                         <img src={solicitud} alt=""/>
                         <span>Mis solicitudes</span>
-                    </li></a>
+                    </li></a> */}
                     <a href="#/"><li className="tablet-menu-usuario-item">
                         <img src={historial} alt=""/>
                         <span>Historial</span>
