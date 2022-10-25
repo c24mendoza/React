@@ -21,7 +21,14 @@ export default function RequestList (){
                             {colorEstado('Pendiente')}
                         </div>
                     </div>
-                    <div className="item-lista"></div>
+                    <div className="item-lista">
+                        <span className="item-lista-titulo">Mantenimiento de impresora y cartucho de ventas.</span>
+                        <div className="item-lista-botones">
+                            <img className="item-lista-botones-imagen" src={avatar} alt=""/>
+                            <span className="item-lista-botones-fecha">10/oct/22</span>
+                            {colorEstado('Pendiente')}
+                        </div>
+                    </div>
                     <div className="item-lista"></div>
                     <div className="item-lista"></div>
                     <div className="item-lista"></div>

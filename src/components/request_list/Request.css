@@ -47,7 +47,7 @@
   }
 
   #tab-intermedio{
-    width: 1px;
+    width: 0.3%;
     border-bottom: 5px solid #2c3e50;
     box-sizing: border-box;
   }
@@ -63,7 +63,7 @@
   }
   
   #tab-vacio{
-    width: 49%;
+    width: 49.7%;
     border-bottom: 5px solid #2c3e50;
     box-sizing: border-box;
   }

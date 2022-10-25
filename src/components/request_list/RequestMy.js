@@ -2,6 +2,7 @@ import React from "react";
 import './RequestMy.css';
 import avatar from '../../components/img/foto-avatar.png';
 import check from '../../components/img/check3.png';
+import signo_mas from '../../components/img/signo-mas.png';
 
 
 export default function RequestMy (){
@@ -13,6 +14,13 @@ export default function RequestMy (){
             <div className="requestmy-contenido">
                 <div className="contenedormy-lista">
 
+                    <div className="contenedor-nueva-solicitud">
+                        <a href="#/"><div className="boton-solicitud">
+                        <img src={signo_mas} alt=""/>
+                        <span>Crear Solicitud</span>
+                        </div></a>
+                    </div>
+
                     <div className="itemmy-lista">
                         <span className="itemmy-lista-titulo">Mantenimiento de impresora y cartucho de ventas.</span>
                         <div className="itemmy-lista-botones">
@@ -21,7 +29,14 @@ export default function RequestMy (){
                             {colorEstado('Pendiente')}
                         </div>
                     </div>
-                    <div className="itemmy-lista"></div>
+                    <div className="itemmy-lista">
+                        <span className="itemmy-lista-titulo">Mantenimiento de impresora y cartucho de ventas.</span>
+                        <div className="itemmy-lista-botones">
+                            <img className="itemmy-lista-botones-imagen" src={avatar} alt=""/>
+                            <span className="itemmy-lista-botones-fecha">10/oct/22</span>
+                            {colorEstado('Pendiente')}
+                        </div>
+                    </div>
                     <div className="itemmy-lista"></div>
                     <div className="itemmy-lista"></div>
                     <div className="itemmy-lista"></div>
