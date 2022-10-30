@@ -2,6 +2,8 @@ import React from "react";
 import './RequestList.css';
 import avatar from '../../components/img/foto-avatar.png';
 import check from '../../components/img/check3.png';
+import { FaAngleDoubleLeft } from "react-icons/fa";
+import { FaAngleDoubleRight } from "react-icons/fa";
 
 
 export default function RequestList (){
@@ -33,6 +35,18 @@ export default function RequestList (){
                     <div className="item-lista"></div>
                     <div className="item-lista"></div>
                     <div className="item-lista"></div>
+
+                    <div className="lista-paginacion">
+                        <ul>
+                            <li className="item-paginacion"><FaAngleDoubleLeft /></li>
+                            <li className="item-paginacion">1</li>
+                            <li className="item-paginacion">2</li>
+                            <li className="item-paginacion">3</li>
+                            <li className="item-paginacion">4</li>
+                            <li className="item-paginacion">5</li>
+                            <li className="item-paginacion"><FaAngleDoubleRight/></li>
+                        </ul>
+                    </div>
 
                 </div>
                 
